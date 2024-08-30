@@ -1,0 +1,98 @@
+nav{
+    display: flex;
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+*{
+    margin: 0;padding: 0;
+    background-color: lightgray;
+    box-sizing: border-box;
+    
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    background-color: white;
+    
+    
+}
+
+.text{
+    font-size: 20px;
+    align-items: center;
+    border-radius: 0.5em;
+    background-color:lightblue;
+    width: 700px;
+    margin: 0 35px;
+    
+    
+
+    
+
+}
+.label{
+    background-color: white;
+    margin: 10px;
+    
+    
+    font-size: 20px;
+    font-style: normal;
+    width: 100px;
+}
+.img1{
+    background-color: white;
+    margin: 0px;
+}
+.img2{
+    background-color: white;
+    margin: px;
+    padding: 0px;
+    
+    
+
+    
+}
+.cart{
+    background-color: white;
+    font-size: 20px;
+    margin: 10px;
+    width: 100px;
+
+    
+}
+.container{
+    display: flex;
+    background-color: white;
+    
+    
+    
+}
+.seller{
+    margin: 10px;
+    font-size: 20px;
+    background-color: white;
+    width: 180px;
+    
+    
+    
+    
+
+}
+.main{
+    border: 1px solid red;
+}
+.img3{
+    background-color: white;
+}
+.img4{
+    background-color: white;
+
+}
+
+
+
