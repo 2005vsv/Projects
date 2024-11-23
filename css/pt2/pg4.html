@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p:nth-last-of-type(3){
+        color: blue;
+        font-size: 40px;
+    }
+    .head1{
+        color: blueviolet;
+    }
+    .head1::before{
+        content: 'hello';
+    }
+    .head1::after{
+        content:'hi';
+    }
+    #head2{
+        color: chartreuse;
+    }
+    input[type="password"]{
+        background-color: blue;
+    }
+    div p{
+        color: brown;
+    }
+</style>
+<body>
+    <p>this is a pg</p>
+    <h1 class="head1">this is heading</h1>
+    <h2 id="head2">this is h2</h2>
+    <input type="password" placeholder="enter password" >
+    <p>thi is a wholosome world</p>
+    <p>thi is a wholosome world</p>
+    <p>thi is a wholosome world</p>
+    <p>thi is a wholosome world</p>
+    <div>
+        <p>paragraph is indide div</p>
+    </div>
+    <p>thi is not inside</p>
+</body>
+</html>

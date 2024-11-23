@@ -1,0 +1,23 @@
+*{
+    margin: 0;padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    
+    
+    
+}
+.img1{
+    border: 1px solid orangered;
+    
+    width: 500px;
+    height: 335px;
+    border-radius: 0.5em;
+
+    
+}
+.im{
+    border-radius: 0.5em;
+}

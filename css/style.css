@@ -1,0 +1,15 @@
+h1{
+    background-color: crimson;
+    color: rgb(78, 147, 192);
+}
+.myhead1{
+    color: blue;
+}
+#mythirdelement{
+    color: black;
+}
+p{
+    background-color: aqua;
+    background-image: repeating-linear-gradient();
+    box-shadow: 0cqb;
+}
